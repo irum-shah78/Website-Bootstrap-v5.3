@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-  line-height: 3rem;
+  line-height: 4rem;
   font-weight: 600;
   font-size: 3.4rem;
 }
@@ -64,11 +64,13 @@ a {
   letter-spacing: 0.03rem;
   word-spacing: 0.1rem;
 }
-.common-heading{
+
+.common-heading {
   font-size: 2.8rem;
   font-weight: 500;
   letter-spacing: 0.01rem !important;
 }
+
 /* .common-title{
   margin-bottom: 4.2rem;
 } */
@@ -131,6 +133,17 @@ a {
 .custom-shape-divider-bottom-1711621199 .shape-fill {
   fill: #FFFFFF;
 }
-.card-box:hover{
+
+.card-box:hover {
   box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+.more-info-section {
+  background-image: linear-gradient(rgba(22, 22, 22, 0.7), rgba(22, 22, 22, 0.9)), url("./Assets/Parallax.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed !important;
+  padding: 6rem 0;
+  overflow: hidden;
 }
