@@ -177,7 +177,7 @@ a {
 }
 
 /* Contact Section */
-.contact-section{
+.contact-section {
   position: relative;
 }
 
@@ -199,4 +199,42 @@ a {
 
 .custom-shape-divider-top-1711867056 .shape-fill {
   fill: #FFFFFF;
+}
+
+.contact-div {
+  background-color: #222;
+}
+
+@media screen and (max-width: 1200px) {
+  .hero-video {
+    width: 20rem;
+    border-radius: 1rem;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  section .common-heading {
+    font-size: 2rem;
+  }
+
+  section .para-width {
+    width: auto;
+  }
+
+  .hero-section {
+    height: 100vh;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+
+  .more-info-section {
+    text-align: center;
+  }
 }
