@@ -175,3 +175,28 @@ a {
   height: 0.7rem;
   background-color: var(--secondary-color);
 }
+
+/* Contact Section */
+.contact-section{
+  position: relative;
+}
+
+.custom-shape-divider-top-1711867056 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1711867056 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1711867056 .shape-fill {
+  fill: #FFFFFF;
+}
